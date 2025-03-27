@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+body {
+    background-image: url('images/background.jpg'); /* Ganti dengan gambar background */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.7); /* Putih dengan transparansi */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(5px); /* Efek blur untuk mempercantik */
+}
+
+.logo {
+    width: 80px;
+}
+
+.horse-image {
+    width: 100px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #FF69B4;
+    font-size: 22px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 2px solid #FF69B4;
+    font-size: 14px;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #FF1493;
+}
+
+.forgot-password {
+    color: #FF69B4;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+
+.register-link {
+    color: #0000FF;
+    font-size: 14px;
+    text-decoration: underline;
+}
